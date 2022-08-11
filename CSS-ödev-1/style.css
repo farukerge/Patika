@@ -1,88 +1,97 @@
-body{
-    width: 100%;
-    box-sizing: border-box;
+*{
+    margin: 0;
     padding: 0;
-    margin: 0;
+    box-sizing: border-box;
 }
 
-.logo {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
-}
-
-p {
-    margin: 0;
-    margin-bottom: 0.3rem;
-}
-
-.content {
-    background-color:lightgray;
-    width: 80%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    margin: auto;
-}
-
-input {
-    padding: 0 3rem;
-}
-
-
-
-.btn-box {
-    margin-bottom: 1.3rem;
-}
-
-footer {
-    display: flex;
-}
-
-.footer-links {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: auto;
-}
-
-ul{
+nav {
     width: 100%;
-    padding: 0.5rem 0;
+    justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+
+.products {
+    margin-top: 3rem;
+    font-size: 2.1rem;
+    color: coral;
+}
+
+.title{
+    display: flex;
+    text-align: center;
+    align-items: center;
     justify-content: center;
+    color: coral;
+    font-size: 3rem;
+    margin: 3rem 0;
+    user-select: none;
 }
 
-.link-1 {
-    background-color: #7ee5da;
-    text-align: center;
-    margin-right: 0.1rem;
-   
-}
-.link-2 {
-    background-color: #70ccc2;
-    margin-right: 0.1rem;
-}
-.link-3 {
-    background-color: #62b3aa;
-    text-align: center;
+.nav-links{
+    display: flex;
 }
 
-li{
+li {
+    margin-right: 1.1rem;
     list-style: none;
 }
 
-p {
-    padding: 0;
-    margin: 0;
-    font-size: 12px;
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
 }
 
-.mail {
-    padding: 0 0.4rem;
-    width: 7rem;
+.text-box {
+    padding: 2.1rem 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.consoles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-link {
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    color: coral;
+}
+
+img{
+    width: 300px;
+    height: 410px;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding-top: 5rem;
+}
+
+ol{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text {
+    width: 80%;
+    margin: auto;
+}
+
+.desc{
+    margin-bottom: 1rem;
 }
